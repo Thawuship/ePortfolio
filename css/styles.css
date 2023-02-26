@@ -41,6 +41,13 @@
 *::after {
   box-sizing: border-box;
 }
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  
+}
 
 html {
   font-family: sans-serif;
@@ -141,6 +148,15 @@ sup {
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 sub {
